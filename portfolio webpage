@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: radial-gradient(ellipse, #fffffe, rgb(0, 179, 255));
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            background-color: rgba(255, 255, 255, 0.5);
+            border: 3px solid black;
+            border-radius: 10px;
+            padding: 20px;
+            font-size: xx-large;
+            color: darkblue;
+            text-align: center;
+        }
+
+        ul {
+            color: rgb(17, 17, 1);
+            font-size: medium;
+        }
+
+        div {
+            
+            border: 4px solid black;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 20px auto;
+            width: 80%;
+            color: darkblue;
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+
+        h2, h3 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 10px;
+            color: rgb(17, 17, 1);
+            font-size: medium;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a i {
+        
+            font-size: 24px;
+            color: #C13584;
+            transition: transform 0.3s;
+        }
+
+        a:hover i {
+            transform: scale(1.2); /* Zoom effect on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>ANAGHA S. RAGHAVAN</h1>
+    
+    <div>
+        <h2>About Me</h2>
+        <p>
+            Hi, I am Anagha S. Raghavan, pursuing a B.Tech in Electronics and Communication at UVCE. 
+            I am passionate about music and other forms of art.
+        </p>
+    </div>
+
+    <div>
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <strong>Chethana PU College</strong> 
+                <br>1st PUC - 2nd PUC (2022-2024) 
+                <br>Percentage: 95%
+            </li>
+            <li>
+                <strong>University of Visvesvaraya College of Engineering</strong> 
+                <br>B.Tech in Electronics and Communication Engineering 
+                <br>Started in 2024
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h4>Participation</h4>
+        <ul>
+            <li>
+                <strong>Kagada</strong> 
+                <br>Collaborated with a team to design a compelling poster on Hyperloop Systems, showcasing innovative transportation solutions.
+                I also gained invaluable insights into the fields of technology and innovation, enhancing my understanding of cutting-edge concepts and teamwork in a competitive environment.
+            </li> 
+        </ul>
+    </div>
+    <div>
+        <h3>Follow Me</h3>
+        <a href="https://www.instagram.com/anagha_ig/" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/anagha-s-raghavan-863477330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <i class="fab fa-linkedin fa-2x" style="color: #0077B5;"></i>
+        </a>
+    </div>
+
+   
+</body>
+</html>
+
